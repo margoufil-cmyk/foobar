@@ -1,0 +1,11 @@
+{
+  "name": "iso27001-compliance-assistant",
+  "version": "1.0.0",
+  "description": "Application responsive d'aide au maintien d'une certification ISO 27001",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "node --check src/main.js"
+  }
+}
